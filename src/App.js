@@ -1,23 +1,36 @@
-import logo from './logo.svg';
+import Header from './components/Header';
 import './App.css';
-
+import Footer from './components/Footer';
+import bus from './assets/images/bus.svg';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header/>
+      <main>
+        <div className='mainBlock'>
+            <div className='mainBlock_text'>
+              <p>
+                <span className='mainBlock_first'>Ваш путь по Москве начинается с нами! </span>
+                <br/> 
+                <span className='mainBlock_second'>Мы обеспечим вам <span className='textblue'>надёжность и удобство</span> на каждом маршруте.</span>
+                </p>
+              <ul className='mainBlock_ul'>
+                <li><div className='block'/>Современная инфраструктура</li>
+                <li><div className='block'/>Быстрое время ожидания</li>
+                <li><div className='block'/>Интеграция с городскими сервисами</li>
+                <li><div className='block'/>Безопасность и комфорт</li>
+              </ul>
+            </div>
+            <div className='mainBlock_img'>
+              <div class="circle"></div>
+              <img src={bus} alt='bus'/>
+            </div>
+        </div>
+        <section>
+          <div>МОСГОРТРАНС</div>
+        </section>
+      </main>
+      <Footer/>
     </div>
   );
 }
