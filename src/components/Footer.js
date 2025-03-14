@@ -3,7 +3,6 @@ import '../assets/styles/Footer.css';
 const Footer = () => {
   return (
     <footer>
-        <hr/>
         <div>
             <ul>
                 <li>© 2010–2025 ГУП «Мосгортранс»</li>
