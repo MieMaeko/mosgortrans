@@ -12,7 +12,6 @@ const Header = () => {
             <ul className='menu'>
               <li><a href="/">О предприятии</a></li>
               <li><a href="/">Пассажирам</a></li>
-              <li><a href="/">Маршруты и расписания</a></li>
               <li><a href="/">Работа у нас</a></li>
               <li><a href="/">Услуги</a></li>
               <li><a href="/">Пресс-служба</a></li>
