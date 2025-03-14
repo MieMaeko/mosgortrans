@@ -1,3 +1,9 @@
 footer {
-    margin-top: 20px;
+    margin: 2% auto;
+    font-size: smaller;
+    text-align: center;
+    color: rgba(128, 128, 128, 0.675);
+}
+footer > div {
+    margin-top: 1%;
 }

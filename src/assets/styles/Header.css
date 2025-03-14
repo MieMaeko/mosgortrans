@@ -1,6 +1,5 @@
 .header {
-    /* background-color: #003366; */
-    padding: 10px;
+    padding: 1% 10px;
     color: rgb(0, 0, 0);
     display: flex;
     text-align: center;
@@ -8,6 +7,11 @@
     margin: 1% auto;
     width: 90%;
     justify-content: space-between;
+    background-color: white;
+    font-size: 18px;
+    /* position: fixed;
+    left: 5%;
+    right: 0; */
   }
   
   .logo img {
@@ -36,8 +40,9 @@
     bottom: 0;
     display: block;
     width: 100%;
-    height: 1px;
-    background: #000;
+    height: 2px;
+    background: rgb(64,123,255);
+    border-radius: 3px;
   }
   .menu > li::after {
     width: 0;
