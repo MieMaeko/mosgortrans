@@ -4,6 +4,7 @@ import logo from '../assets/images/logo.svg';
 const Header = () => {
   return (
     <header className="header">
+      <div className='header_block'>
         <div className="logo">
             <img src={logo} alt="Мосгортранс" />
             <span>Мосгортранс</span>
@@ -18,6 +19,7 @@ const Header = () => {
               <li><a href="/">Контакты</a></li>
             </ul>
         </nav>
+      </div>
     </header>
   );
 }
