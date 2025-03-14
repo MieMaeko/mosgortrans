@@ -24,7 +24,7 @@ a {
   margin-top: 2%;
   align-items: center;
 }
-.block {
+.block_li {
   width: 17px;
   height: 17px;
   background-color: rgb(64,123,255);
@@ -38,8 +38,9 @@ a {
 .mainBlock {
   display: flex;
   justify-content: space-around;
-  margin-top: 1%;
   align-items: center;
+  margin-top: 7%;
+  margin-bottom: 1%;
 }
 .mainBlock_text {
   width: 480px;
@@ -87,7 +88,7 @@ section > div:last-child {
   }
 }
 .newsBlock {
-  margin: 2% auto;
+  margin: 4% auto;
   width: 75%;
 }
 .article {
@@ -118,10 +119,42 @@ h5 {
 .description {
   text-align: justify;
 }
+.advantages {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
 .block {
-  width: 200px;
-  height: 200px;
-  border-radius: 20px;
-  color: white;
+  width: 300px;
+  height: 280px;
+  border-radius: 50px;
+  color: black;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.block:hover {
+  transform: translateY(-5px);  
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);  
+}
+.block_text {
+  margin: 10%;
+}
+.block_text > p {
+  text-align: center;
+  font-size: 17px;
+}
+.last_block {
+  width: 100%;
+  margin-top: 5%;
+  padding: 3% 0 3%;
   background-color: rgb(64, 123, 255);
+}
+.icons {
+  font-size: 45px;
+  display: grid;
+  place-items: center; 
+  width: 100%;
+  margin-bottom: 5%;
 }

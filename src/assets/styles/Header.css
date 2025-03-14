@@ -1,26 +1,29 @@
 .header {
     padding: 1% 10px;
     color: rgb(0, 0, 0);
-    display: flex;
-    text-align: center;
-    align-items: center;
-    margin: 1% auto;
-    width: 90%;
-    justify-content: space-between;
+    width: 100%;
     background-color: white;
     font-size: 18px;
-    /* position: fixed;
-    left: 5%;
-    right: 0; */
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
   }
-  
+.header_block {
+  margin: 1% auto;
+  width: 90%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
   .logo img {
     width: 50px; /* Задайте нужный размер логотипа */
     height: auto;
   }
   .logo {
     align-items: center;
-    display: flex;
+    display: flex;  
   }
   a {
     color: rgb(0, 0, 0);
